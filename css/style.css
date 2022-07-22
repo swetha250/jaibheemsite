@@ -4841,8 +4841,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
+  background-size: cover;
+  padding-top: 0%;
+  padding-bottom: 0%;
   background-color: #e9ecef;
 }
 
@@ -5893,7 +5894,7 @@ a.close.disabled {
 }
 
 .carousel-inner {
-  position: relative;
+  position:relative;
   width: 100%;
   overflow: hidden;
 }
@@ -7305,6 +7306,10 @@ button.bg-dark:focus {
   box-shadow: none !important;
 }
 
+.slideImage {
+  max-width: 50%
+}
+
 .w-25 {
   width: 25% !important;
 }
@@ -7317,6 +7322,10 @@ button.bg-dark:focus {
   width: 75% !important;
 }
 
+.w-80 {
+  width: 80% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -7325,12 +7334,19 @@ button.bg-dark:focus {
   width: auto !important;
 }
 
+.h-10 {
+  height: 10% !important;
+}
 .h-25 {
   height: 25% !important;
 }
 
 .h-50 {
   height: 50% !important;
+}
+
+.h-35 {
+  height: 35% !important;
 }
 
 .h-75 {
@@ -9590,7 +9606,6 @@ p,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding:  ;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0px;
@@ -9619,10 +9634,10 @@ hr {
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../asmImages/buildingconstruction.jpg);
-  background-position: top;
+  background: linear-gradient(rgba(0, 0.8, 0.8, 0.8), rgba(0, 0, 0, 0)), url(../asmImages/jskimages/flagcrop.JPG);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .btn-play {
