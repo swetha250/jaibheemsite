@@ -167,7 +167,7 @@ a {
 }
 
 a:hover {
-  color: #b33200;
+  color: #24457b;
  
 }
 
@@ -3253,15 +3253,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: white;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #24457b;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #FF4800;
+  background-color: #24457b;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -9914,6 +9914,7 @@ text-align: right;
 }
 .cicontactform{
   margin-top: 50px;
+
 }
 .cibox{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -9944,3 +9945,27 @@ text-align: right;
   display: grid;
   justify-content: center;
 }
+
+.modal-body {
+  position: relative;
+  padding: 15px;
+}
+.modal-header {
+  min-height: 16.43px;
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+}
+
+
