@@ -545,8 +545,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+ 
   max-width: 100%;
   height: auto;
 }
@@ -3255,13 +3254,13 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: white;
   text-decoration: none;
-  background-color: #24457b;
+  background-color: #010066;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #24457b;
+  background-color: #010066;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -6208,7 +6207,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #24457b !important;
+  background-color: #010066 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
