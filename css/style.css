@@ -91,6 +91,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   color:black;
+  text-align: justify;
 }
 
 abbr[title],
@@ -9800,6 +9801,12 @@ hr {
 .paraFont {
   font-family: 'Roboto Slab', serif;
   text-align: justify;
+}
+.paraFont1 {
+  font-family:'Times New Roman', Times, serif;
+  text-align: justify;
+  text-justify: inter-word;
+  color: black;
 }
 
 .homepageheader {
