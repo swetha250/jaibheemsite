@@ -3998,6 +3998,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  font-weight: normal;
 }
 
 .nav-tabs .nav-link {
@@ -4441,6 +4442,10 @@ input[type="button"].btn-block {
 
 .card > .list-group:last-child {
   border-bottom-width: 0;
+}
+
+.blue-header{
+  color:#010066;
 }
 
 .card > .card-header + .list-group,
@@ -6218,7 +6223,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #24457b !important;
+  background-color: #010066 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9332,6 +9337,11 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-white1 {
+  color: #fff !important;
+  font-size:smaller;
+}
+
 .text-primary {
   color: #FF4800 !important;
 }
@@ -9556,7 +9566,7 @@ h6,
 p,
 .font-weight-normal {
   font-weight: 400 !important;
-  font-family: 'Roboto Slab', serif;
+  font-family:'Times New Roman', Times, serif;
   color:black;
 }
 
@@ -9564,6 +9574,13 @@ p,
 .font-weight-normal {
   font-weight: 400 !important;
   font-family: 'Roboto Slab', serif;
+  color:white;
+}
+
+.footerPara1,
+.font-weight-normal {
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif;
   color:white;
 }
 
@@ -9608,7 +9625,7 @@ p,
 
 .navbar-light .navbar-nav .nav-link {
   font-weight: 600;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Poppins", sans-serif;
   letter-spacing: 0px;
   color: white;
   outline: none;
@@ -9636,6 +9653,13 @@ hr {
 
 .jumbotron {
   background: linear-gradient(rgba(0, 0.8, 0.8, 0.8), rgba(0, 0, 0, 0)), url(../asmImages/jskimages/flagcrop.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.jumbotron1 {
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -9975,3 +9999,31 @@ text-align: right;
 }
 
 
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url(/asmImages/jskimages/songs-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.4;
+    filter:alpha(opacity=40);
+    height:100%;
+    width:100%;
+ }
+
+.main{
+   height:320px;
+   width:320px;
+   margin:auto;
+   background-color:green;
+   z-index:-1;
+   opacity: 1;
+   filter:alpha(opacity=100);
+}
