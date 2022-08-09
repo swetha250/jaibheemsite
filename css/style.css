@@ -1926,12 +1926,12 @@ pre code {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 3;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
-  border-radius: 0;
+  border: 1px solid black;
+  border-radius: 10px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -3257,6 +3257,8 @@ input[type="button"].btn-block {
   text-decoration: none;
   background-color: #010066;
 }
+
+
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
@@ -10049,4 +10051,9 @@ text-align: right;
 .namesize {
   font-weight: bold;
   font-size:large;
+}
+
+.textColor {
+  color: black;
+  font-weight: bold;
 }
