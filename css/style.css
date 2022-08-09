@@ -9581,6 +9581,13 @@ p,
   color:black;
 }
 
+.footerPara1,
+.font-weight-normal {
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif;
+  color:white;
+}
+
 .footerPara,
 .font-weight-normal {
   font-weight: 400 !important;
@@ -10037,4 +10044,9 @@ text-align: right;
    z-index:-1;
    opacity: 1;
    filter:alpha(opacity=100);
+}
+
+.namesize {
+  font-weight: bold;
+  font-size:large;
 }
